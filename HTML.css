@@ -1,13 +1,27 @@
-body {
+h1 {
     font-family: Impact, Lato;
     text-align: center;
     text-decoration:dotted
+}
+
+h2 {
+    font-family: Impact, Lato;
+    text-align: center;
+    text-decoration:dotted;
+    font-size: 24px;
+}
+h3 {
+    font-family: Impact, Lato;
+    text-align: right;
+    text-decoration:dotted;
+    font-size: 20px;
 }
 
 header {
     background-color: lightblue;
     color: darkred;
     padding: 10px;
+    
 }
 
 header img {
@@ -23,9 +37,6 @@ nav ul li {
     margin-right: 20px;
 }
 
-h2 {
-    font-size: 24px;
-}
 
 .featured-article {
     background-color: lightblue; /* Background color for the featured article section (e.g., gold) */
@@ -50,6 +61,17 @@ h2 {
 
 .featured-article a:hover {
     background-color: #555; /* Background color for the link on hover */
+}
+
+address {
+    text-align: right;
+    text-decoration:dotted;
+}
+
+form {
+    text-align: center;
+    text-decoration:dotted;
+    font-size: 18px;
 }
 
 iframe {

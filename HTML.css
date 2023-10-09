@@ -1,3 +1,22 @@
+header {
+    font-family: Lato;
+    text-align: center;
+    text-decoration:dotted;
+    background-color: lightcoral;
+    color: darkred;
+    padding: 10px;
+    font-size: 24px;
+}
+header img {
+    max-width: 100px;
+}
+#WELCOME {
+    background-color: #FFBD33; 
+    padding: 20px; 
+    color: rgb(74, 157, 49);
+    font-family: Lato;
+ }
+
 h1 {
     font-family: Impact, Lato;
     text-align: center;
@@ -17,37 +36,25 @@ h3 {
     font-size: 20px;
 }
 
-header {
-    background-color: lightblue;
-    color: darkred;
-    padding: 10px;
-    
-}
 
-header img {
-    max-width: 50px;
-}
-
-nav ul {
+ul {
     list-style: none;
 }
 
-nav ul li {
+ul li {
     display: inline;
     margin-right: 20px;
 }
 
 
 .featured-article {
-    background-color: lightblue; /* Background color for the featured article section (e.g., gold) */
-    padding: 20px; /* Padding to create space around the content */
-    border: 1px solid #FFA500; /* Border to define the section */
-    border-radius: 10px; /* Rounded corners for the section */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Drop shadow for a raised effect */
+    background-color: lightblue; 
+    padding: 10px;
+    padding-bottom: 5%;
 }
 
 .featured-article h2 {
-    color: #333; /* Heading color */
+    color: #c91a1a; 
 }
 
 .featured-article a {

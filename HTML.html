@@ -4,6 +4,7 @@
     <title>immnewsnetwork.com</title>
     <link rel="stylesheet" type="text/css" href="HTML.css">
     <link rel="icon" href="apple-touch-icon.png" sizes="180x180" type="favicon_io/png">
+    <script src="html.js"></script>
 </head>
 <body>
     <header>
@@ -156,8 +157,10 @@
     </section>
 
     <footer>
-        <p>About cookie usage. </p>
-        </p>  <a href="#">Accept Cookies</a></p>
+        <p>About cookie usage. <span id="cookie-consent-text"></span></p>
+        <button id="accept-cookies-button" onclick="acceptCookies()">Accept Cookies</button>
+        <button id="revoke-cookies-button" onclick="revokeCookies()">Revoke</button>
+        <a href="#" id="reaccept-cookies-link" style="display: none;" onclick="reacceptCookies()">Reaccept Cookies</a>
     </footer>
 </body>
 </html>

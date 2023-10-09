@@ -20,7 +20,8 @@ header img {
 h1 {
     font-family: Impact, Lato;
     text-align: center;
-    text-decoration:dotted
+    text-decoration:dotted;
+    font-size: 30px;
 }
 
 h2 {
@@ -29,6 +30,7 @@ h2 {
     text-decoration:dotted;
     font-size: 24px;
 }
+
 h3 {
     font-family: Impact, Lato;
     text-align: right;
@@ -105,6 +107,7 @@ iframe {
 
 footer {
     background-color: lightcoral;
+    font-size: 20px;
     color: white;
     padding: 10px;
     text-align: center;
